@@ -1,5 +1,8 @@
 # Audio Visualizer
 
+<video src='https://raw.githubusercontent.com/jfcbooth/dasv/main/media/visualizer.webm' width=480></video>
+
+
 This project is a physical audio visualizer made from an 8x8 LED array.
 It crudely made in high school IT class when the assignment was "make something with computer parts", which I why the LEDs are installed in a motherboard. Specifically a Gigabyte GA-78LMT-USB3, which is the mobo the backing plate is designed for.
 
