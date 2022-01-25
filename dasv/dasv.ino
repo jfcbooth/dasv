@@ -7,7 +7,7 @@ const int rowPins[] = {11, 12, 10, 2, 3, 4, 5, 6}; // HIGH for ON, LOW for OFF
 int levels[] = {1,2,3,4,5,6,7,8}; // LED level for each column
 const byte numChars = 8; //8 bytes
 int receivedChars[numChars] = {0, 0, 0, 0, 0, 0, 0, 0}; // an array to store the filtered numbers
-boolean newDataAvailableAvailable = false;      //flag new data has been received
+boolean newDataAvailable = false;      //flag new data has been received
 
 //function prototype
 void allOff(); // turns all LEDs off
@@ -36,7 +36,7 @@ void setup() {
     sei(); // enable interrupts
 
   // setup serial communication
-  Serial.begin(57600); // was 9600
+  Serial.begin(19200); // was 9600
 
   for (int i = 0; i < 8; i++) {
     pinMode(rowPins[i], OUTPUT);
